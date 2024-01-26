@@ -1,5 +1,3 @@
-# set up venv before running!
-
 import os
 from pathlib import Path
 import logging
