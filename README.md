@@ -7,6 +7,7 @@
 2. Setup.py and intall requirements
 3. Logging, exception, and utils modules
 4. Experiment with and train model
+- Repeat following cycle through ingestion, validation, transofrmation:
 5. Update config.yaml
 6. Update params.yaml (for model parameters)
 7. Update entity

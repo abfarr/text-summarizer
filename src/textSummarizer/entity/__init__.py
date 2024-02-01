@@ -20,3 +20,14 @@ class DataValidationConfig:
     root_dir: Path
     STATUS_FILE: str
     ALL_REQUIRED_FILES: list
+
+
+
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    '''
+    Defines types for transofrmation valiables imported from text-summarizer/config/config.yaml
+    '''
+    root_dir: Path
+    data_path: Path
+    tokenizer_name: Path
